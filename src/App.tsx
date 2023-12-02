@@ -1,8 +1,13 @@
+import CreateLogin from "./components/CreateLoginArea/CreateLoginArea";
+import Login from "./components/LoginArea/LoginArea";
+
 const App = () => {
   return (
-    <div className="flex h-screen w-full items-center justify-center">
-      <h1>Hello World!</h1>
-    </div>
+    <main className="bg-container-color flex h-screen w-full flex-col p-5 md:flex-row">
+      <Login />
+
+      <CreateLogin />
+    </main>
   );
 };
 
