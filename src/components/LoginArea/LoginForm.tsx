@@ -6,7 +6,7 @@ const LoginForm = () => {
         <input
           type="text"
           placeholder="Digite seu nome de usuário ou email"
-          className="rounded-full p-2.5 outline-none md:p-5"
+          className="rounded-full p-2.5 text-black outline-none md:p-5"
         />
       </div>
 
@@ -15,7 +15,7 @@ const LoginForm = () => {
         <input
           type="password"
           placeholder="Digite sua senha"
-          className="rounded-full p-2.5 outline-none md:p-5"
+          className="rounded-full p-2.5 text-black outline-none md:p-5"
         />
       </div>
 
